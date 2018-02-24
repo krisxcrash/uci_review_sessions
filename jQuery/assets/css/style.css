@@ -1,5 +1,5 @@
 body {
-    background-color: #85cff7;
+    background-color: #000000;
     font-family: 'Helvetica', 'Arial', sans-serif;
   }
   
@@ -8,7 +8,7 @@ body {
   }
   
   h1 {
-    color: white;
+    color: rgb(0, 255, 234);
     margin: 0px auto;
     padding: 20px;
   }
@@ -22,10 +22,10 @@ body {
     color: #000;
     font-size: 20px;
     list-style-type: none;
-    width: 20%;
+    width: 40%;
     margin: 0px auto;
     border-radius: 3px;
-    border: 1px solid #000;
+    border: 1px solid rgb(0, 255, 234);
     padding: 10px;
     margin-bottom: 10px;
   }
@@ -49,7 +49,7 @@ body {
   input[type='text'] {
     font-size: 12px;
     padding: 6px;
-    border: 1px solid #000;
+    border: 1px solid rgb(0, 255, 234);
     border-radius: 3px;
   }
   
@@ -67,5 +67,5 @@ body {
   
   #itemField {
     margin-top: 60px;
-    width: 10%;
+    width: 30%;
   }
