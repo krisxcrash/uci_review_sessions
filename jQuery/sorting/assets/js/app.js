@@ -1,6 +1,6 @@
-jQuery(function($){
+// jQuery(function($){
 
-  $(".nav li").click(function(){
+  $(".nav li").on("click", function(){
 
     // 1. store data-type attribute
     var color = $(this).attr("data-type"); 
@@ -26,4 +26,4 @@ jQuery(function($){
 
   });
 
-});
+// });
